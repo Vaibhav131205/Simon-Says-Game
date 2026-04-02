@@ -53,9 +53,16 @@ function checkAns(idx){
         }
     }else{
         h2.innerText= `Game Over 😭😭. Your Score is ${level}. Press "Any" key to "Start again"`;
+        gameOver();
         reset();
     }
 }
+
+document.querySelector("body").style(background-color).red;
+function gameOver( {
+    setTimeout(document.querySelector("body").style(background-color).red;, 250);
+    setTimeout(document.querySelector("body").style(background-color).white;,250);
+})
 
 function btnPress(){
     let btn = this;
